@@ -48,6 +48,16 @@ Vercel CLI пока не основной путь. Его можно испол
 - попытка открыть `https://github.com/new` через in-app browser перенаправила на `https://github.com/login`;
 - значит для автоматического создания репозитория нужно либо войти в GitHub во встроенном браузере Codex, либо создать пустой репозиторий вручную и дать его URL/`owner/repo`.
 
+Публикация на GitHub:
+
+- пользователь создал репозиторий `https://github.com/psvtster-jpg/ulpan-politika`;
+- локальный remote `origin` указывает на `https://github.com/psvtster-jpg/ulpan-politika.git`;
+- `git push` из shell сначала не прошёл из-за отсутствия локальных git-credentials;
+- push выполнен через Visual Studio Code после разрешения расширению GitHub войти в аккаунт;
+- ветка `main` опубликована на GitHub и указывает на коммит `4f9cba8`;
+- локальная ветка `main` настроена на tracking `origin/main`;
+- GitHub connector подтвердил наличие файла `likbez-parties/index.html` в ветке `main`.
+
 Локальная HTTP-проверка:
 
 - временный сервер был запущен на `http://127.0.0.1:8766/`;
