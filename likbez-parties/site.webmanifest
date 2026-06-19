@@ -1,0 +1,16 @@
+{
+  "name": "Ульпан Политика: партии Израиля",
+  "short_name": "Ульпан Политика",
+  "lang": "ru",
+  "start_url": "/likbez/israel-parties",
+  "display": "browser",
+  "background_color": "#fbfaf7",
+  "theme_color": "#1a3a8f",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
